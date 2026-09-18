@@ -43,7 +43,7 @@ def inter(i):                          #i是提示语
 while load:                             #登录成功，所有代码建立在此基础上
     for key,value in operate.items():  #遍历字典
         print(f'{key}:{value}')
-    ope=int(input('请输入你要进行的操作:'))
+    ope=inter('请输入你要进行的操作:')
     if ope==0:      #退出登录
         load=False  #更改登录状态，结束当前if的同时，使得while也结束
     elif ope==1:  #添加数据
@@ -97,4 +97,6 @@ while load:                             #登录成功，所有代码建立在此
                 print(msg[i]['name']+'————'+msg[i]['auther'])
             else:
                 print('抱歉，没有相关内容')
+    else:
+        print("菲比啾比不知道你要干什么")
 print('感谢使用')
