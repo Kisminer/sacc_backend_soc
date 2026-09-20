@@ -10,14 +10,14 @@ num=2                    #记录视频编号
 input('继续请按回车')      #顿一下，别一下闪出来
 load=True    #是否处于登录状态
 msg={1:{'name':'三分钟看懂后端',    #初始数据
-        'auther':'xiao_ming',
+        'author':'xiao_ming',
         'platform':'top_tip',
         'play_count':12000,
         'like':800,
         'comment':120,
         'tip':['后端','学习','新人']}
      ,2:{'name':'后端练习',
-         'auther':'xiao_ming',
+         'author':'xiao_ming',
          'platform':'top_tip',
          'play_count':1200,
          'like':800,
